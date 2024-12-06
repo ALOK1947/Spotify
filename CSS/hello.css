@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header start  */
+header{
+    width:100%;
+    height: 70px;
+    background-color:#000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 30px;
+    color: white;
+    position: sticky;
+}
+header div{
+    display: flex;
+}
+header div:nth-child(2){
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+header div:nth-child(2) div:first-child{
+    border-radius: 50%;
+    background-color: #1F1F1F;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div:nth-child(3){
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+header div:nth-child(3) div:last-child{
+    background-color:white;
+    width: 90px;
+    height: 50px;
+    border-radius: 60px;
+    padding-left: 20px;
+    color: #000000;
+}
+i{
+    font-size: 28px;
+    color: white;
+
+}
+input{
+    width: 400px;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+.search_page{
+    background-color: #1F1F1F;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    border-radius: 30px;
+    padding: 0px 15px;
+}
+/* header end  */
+
+/* midal part start  */
+.midal{
+   background-color:black;
+   width: 100%;
+   height: 650px;
+   display: flex;
+   gap: 1%;
+}
+.midal1{
+width: 39%;
+background-color: black;
+}
+.midal1a{
+    position: sticky;
+    height: 400px;
+    background-color:black;
+}
+.midal1a>div:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color:#121212;
+}
+.midal1a>div:nth-child(1) div:first-child{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+    .playlists{
+        padding: 10px 20px;
+        height: 300px;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+.playlist1{
+    width: 100%;
+    height: 160px;
+    background-color:#1F1F1F;
+    border-radius: 30px;
+    color: aliceblue;
+    padding: 15px 10px;
+    margin-top: 20px;
+}
+.playlist1 div:nth-child(1){
+    font-size: 20px;
+    font-weight:bold;
+}
+.playlist1 div:nth-child(2){
+    font-size: 15px;
+    font-weight:bold;
+    padding-top: 20px;
+}
+.playlist1 div:nth-child(3){
+    font-size: 17px;
+    font-weight:bold;
+    margin-top: 20px;
+    background-color: white;
+    color: #000000;
+    width: 200px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down_points{
+    word-spacing: 20px;
+    line-height: 40px;
+    padding: 20px 10px;
+    color: white;
+}
+.cookies{
+    padding: 0px 10px;
+    color: white;
+}
+.last_english{
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 27px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+}
+/* midal part end  */
+
+.midal2{
+    width: 60%;
+    background-color:#1F1F1F;
+    overflow: hidden;
+    overflow: auto;
+    }
+    .head_start{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 10px;
+    }
+    .head_start>div:last-child{
+        color: aliceblue;
+    }
+        .second_headline{
+        font-size: 25px;
+        font-weight: bold;
+        color:white;
+    }
+    .images{
+        display: flex;
+        justify-content: space-around;
+    }
+    .image1{
+        background-image: url(../images/1.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 50%;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image2{
+        background-image: url(../images/2.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 50%;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image3{
+        background-image: url(../images/3.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 50%;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image4{
+        background-image: url(../images/4.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 50%;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image5{
+        background-image: url(../images/5.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image6{
+        background-image: url(../images/6.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image7{
+        background-image: url(../images/7.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image8{
+        background-image: url(../images/8.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image9{
+        background-image: url(../images/9.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius:20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image10{
+        background-image: url(../images/10.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius:20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image11{
+        background-image: url(../images/11.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius:20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image12{
+        background-image: url(../images/12.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius:20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image13{
+        background-image: url(../images/13.jpg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image14{
+        background-image: url(../images/14.jpg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image15{
+        background-image: url(../images/15.jpg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image16{
+        background-image: url(../images/16.jpg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image17{
+        background-image: url(../images/17.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image18{
+        background-image: url(../images/18.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image19{
+        background-image: url(../images/19.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image20{
+        background-image: url(../images/20.jpeg);
+        width: 200px;
+        height: 200px;
+       border-radius: 20px;
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .image_start div:nth-child(2){
+        padding: 5px 20px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+     }
+     .image_start div:nth-child(3){
+        padding: 5px 20px;
+        color: white;
+     }
+    
+     .helps{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        padding: 80px 20px;
+     }
+     .helps>div{
+        gap: 30px;
+        font-weight: normal;
+        line-height: 30px;
+
+     }
+     .icons{
+        display: flex;
+        gap: 20px;
+     }
+     .copy{
+        padding: 50px
+        10px;
+        color: white;
+     }
